@@ -19,31 +19,31 @@ function Tech() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-3 col-6">
             <img
-              className="img-fluid"
+              className="img-fluid mb-2"
               src="assets/react.png"
               alt=""
               width={150}
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-6">
             <img
-              className="img-fluid"
+              className="img-fluid mb-2"
               src="assets/Redux.png"
               alt=""
               width={150}
             />
           </div>
-          <div className="col-md-3 ">
+          <div className="col-md-3 col-6 ">
             <img
-              className="img-fluid"
+              className="img-fluid mb-2"
               src="assets/bootstrap.png"
               alt=""
               width={150}
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-6">
             <img
               className="img-fluid"
               src="assets/sass.png"
@@ -68,7 +68,7 @@ function Tech() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-2">
+          <div className="col-md-2 col-6">
             <img
               className="img-fluid"
               src="assets/JavaScript.png"
@@ -76,7 +76,7 @@ function Tech() {
               width={120}
             />
           </div>
-          <div className="col-md-2">
+          <div className="col-md-2 col-6">
             <img
               className="img-fluid"
               src="assets/paython.png"
@@ -84,7 +84,7 @@ function Tech() {
               width={150}
             />
           </div>
-          <div className="col-md-2 ">
+          <div className="col-md-2 col-6 mb-2 ">
             <img
               className="img-fluid"
               src="assets/php.png"
@@ -92,7 +92,7 @@ function Tech() {
               width={130}
             />
           </div>
-          <div className="col-md-2">
+          <div className="col-md-2 col-6">
             <img
               className="img-fluid"
               src="assets/laravel.png"
@@ -109,10 +109,10 @@ function Tech() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-2">
+          <div className="col-md-2 col-6">
             <img src="assets/postgre-1.png" alt="" width={120} />
           </div>
-          <div className="col-md-2">
+          <div className="col-md-2 col-6">
             <img
               className="img-fluid"
               src="assets/mysql.png"
