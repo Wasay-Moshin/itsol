@@ -7,7 +7,7 @@ function Header() {
             <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand" href="/">
-            <img src="assets/itsol-logo.png" alt=" logo here" width={"140px"} />
+            <img src="assets/logo.png" alt=" logo here" width={130} />
           </a>
           <button
             className="navbar-toggler"
