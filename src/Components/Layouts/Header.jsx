@@ -1,10 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className='header'>
-            <nav className="navbar navbar-expand-lg">
+    <div className="header">
+      <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand" href="/">
             <img src="assets/logo.png" alt=" logo here" width={130} />
@@ -26,28 +26,32 @@ function Header() {
           >
             <ul className="navbar-nav mt-3">
               <li className="nav-item">
-              <Link to='/' style={{textDecoration:"none"}}>
-                <a className="nav-link active " href="/">
-                  <p>Home</p>
-                </a>
+                <Link to="/" style={{ textDecoration: "none" }}>
+                  <a className="nav-link active " href="/">
+                    <p>Home</p>
+                  </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to='/Aboutus' style={{textDecoration:"none"}}>
-                <a className="nav-link active " href="/">
-                  <p>About Us</p>
-                </a>
+                <Link to="/Aboutus" style={{ textDecoration: "none" }}>
+                  <a className="nav-link active " href="/">
+                    <p>About Us</p>
+                  </a>
                 </Link>
               </li>
               <li className="nav-item">
+                <Link to="/privacy" style={{ textDecoration: "none" }}>
                 <a className="nav-link active " href="/">
                   <p>Privacy</p>
                 </a>
+                </Link>
               </li>
               <li className="nav-item">
+              <Link to="/career" style={{ textDecoration: "none" }}>
                 <a className="nav-link active " href="/">
-                  <p>Terms</p>
+                  <p>Careers</p>
                 </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link active " href="/">
@@ -60,9 +64,11 @@ function Header() {
                 </a>
               </li>{" "}
               <li className="nav-item">
-                <a className="nav-link active " href="/">
-                  <p>Contact Us</p>
-                </a>
+                <Link to="/Contactus" style={{ textDecoration: "none" }}>
+                  <a className="nav-link active " href="/">
+                    <p>Contact Us</p>
+                  </a>
+                </Link>
               </li>
             </ul>
             &nbsp; &nbsp; &nbsp; &nbsp;
@@ -73,7 +79,7 @@ function Header() {
         </div>
       </nav>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

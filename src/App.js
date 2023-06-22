@@ -5,6 +5,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Base from "./Components/Layouts/Base";
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
+import ContactUs from "./Pages/ContactUs";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Privacy from "./Pages/Privacy";
+import Careers from "./Pages/Careers";
+AOS.init();
 
 function App() {
   return (
@@ -14,6 +20,9 @@ function App() {
           <Routes>
             <Route index path="/" element={<Home />} />
             <Route path="/Aboutus" element={<AboutUs />} />
+            <Route path="/Contactus" element={<ContactUs />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/career" element={<Careers />} />
           </Routes>
         </Base>
       </BrowserRouter>

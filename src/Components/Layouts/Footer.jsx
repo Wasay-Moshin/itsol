@@ -34,7 +34,7 @@ function Footer() {
             </ul>
           </div>
           <div className="col-md-3">
-            <img src="assets/itsol-logo.png" width={130} alt="" />
+            <img src="assets/logo.png" width={130} alt="" />
             <p>© 2023 Interactive-Tech Solutions All Rights Revered</p>
           </div>
         </div>
