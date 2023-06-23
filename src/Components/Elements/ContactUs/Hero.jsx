@@ -35,40 +35,76 @@ export const Hero = () => {
             </p>
           </div>
           <div className="row justify-content-center">
-            <div className="col-md-6">
+            <div className="col-md-10">
               <div
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
               >
                 <div className="card">
-                  <div className="pt-3">
-                    <label className="form-label">Name</label>
-                    <input
-                      type="text"
-                      name="user_name"
-                      className="form-control"
-                      placeholder="Your Name"
-                      required
-                    />
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div className="pt-3">
+                        <label className="form-label">Name</label>
+                        <input
+                          type="text"
+                          name="user_name"
+                          className="form-control"
+                          placeholder="Your Name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="pt-3">
+                        <label className="form-label">Company Name</label>
+                        <input
+                          type="text"
+                          // name="user_name"
+                          className="form-control"
+                          placeholder="Company Name"
+                          required
+                        />
+                      </div>
+                    </div>
                   </div>
-                  <div className="pt-3">
-                    <label className="form-label">Email</label>
-                    <input
-                      type="email"
-                      name="user_email"
-                      className="form-control"
-                      placeholder="Your Email"
-                      required
-                    />
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div className="pt-3">
+                        <label className="form-label">Email</label>
+                        <input
+                          type="email"
+                          name="user_email"
+                          className="form-control"
+                          placeholder="Your Email"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="pt-3">
+                        <label className="form-label">Phone Number</label>
+                        <input
+                          type="email"
+                          // name="user_email"
+                          className="form-control"
+                          placeholder="Phone Number"
+                          required
+                        />
+                      </div>
+                    </div>
                   </div>
+
                   <div className="pt-3 pb-3">
-                    <label className="form-label">Message</label>
-                    <textarea name="message" className="form-control" />
+                    <label className="form-label">Project Details</label>
+                    <textarea
+                      name="message"
+                      className="form-control"
+                      placeholder="write your details here"
+                    />
                   </div>
-                  {/* <input type="submit" value="Send" className="form-control" /> */}
                   <button type="submit" value="Send" className="send">
-                    Send
+                    Get A Quote
                   </button>
                 </div>
               </div>

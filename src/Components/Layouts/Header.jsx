@@ -41,27 +41,29 @@ function Header() {
               </li>
               <li className="nav-item">
                 <Link to="/privacy" style={{ textDecoration: "none" }}>
-                <a className="nav-link active " href="/">
-                  <p>Privacy</p>
-                </a>
+                  <a className="nav-link active " href="/">
+                    <p>Privacy</p>
+                  </a>
                 </Link>
               </li>
               <li className="nav-item">
-              <Link to="/career" style={{ textDecoration: "none" }}>
-                <a className="nav-link active " href="/">
-                  <p>Careers</p>
-                </a>
+                <Link to="/portfolio" style={{ textDecoration: "none" }}>
+                  <a className="nav-link active " href="/">
+                    <p>Projects</p>
+                  </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active " href="/">
-                  <p>FAQ</p>
-                </a>
+                <Link to="/career" style={{ textDecoration: "none" }}>
+                  <a className="nav-link active " href="/">
+                    <p>Careers</p>
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active " href="/">
+                {/* <a className="nav-link active " href="/">
                   <p>Pricing</p>
-                </a>
+                </a> */}
               </li>{" "}
               <li className="nav-item">
                 <Link to="/Contactus" style={{ textDecoration: "none" }}>
@@ -73,7 +75,7 @@ function Header() {
             </ul>
             &nbsp; &nbsp; &nbsp; &nbsp;
             <div>
-              <button className="started-btn">Get Started</button>
+              <button className="started-btn">Free Consulting</button>
             </div>
           </div>
         </div>

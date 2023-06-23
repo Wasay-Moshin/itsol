@@ -10,6 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Privacy from "./Pages/Privacy";
 import Careers from "./Pages/Careers";
+import Portfolio from "./Pages/Portfolio";
 AOS.init();
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/Contactus" element={<ContactUs />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/career" element={<Careers />} />
+            <Route path="/portfolio" element={<Portfolio />} />
           </Routes>
         </Base>
       </BrowserRouter>
