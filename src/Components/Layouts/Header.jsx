@@ -61,9 +61,11 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                {/* <a className="nav-link active " href="/">
-                  <p>Pricing</p>
-                </a> */}
+                <Link to="/getaquote" style={{ textDecoration: "none" }}>
+                  <a className="nav-link active " href="/">
+                    <p>Get a Quote</p>
+                  </a>
+                </Link>
               </li>{" "}
               <li className="nav-item">
                 <Link to="/Contactus" style={{ textDecoration: "none" }}>

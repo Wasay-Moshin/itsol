@@ -35,7 +35,7 @@ export const Hero = () => {
             </p>
           </div>
           <div className="row justify-content-center">
-            <div className="col-md-10">
+            <div className="col-md-6">
               <div
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
@@ -43,7 +43,7 @@ export const Hero = () => {
               >
                 <div className="card">
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                       <div className="pt-3">
                         <label className="form-label">Name</label>
                         <input
@@ -55,21 +55,9 @@ export const Hero = () => {
                         />
                       </div>
                     </div>
-                    <div className="col-md-6">
-                      <div className="pt-3">
-                        <label className="form-label">Company Name</label>
-                        <input
-                          type="text"
-                          // name="user_name"
-                          className="form-control"
-                          placeholder="Company Name"
-                          required
-                        />
-                      </div>
-                    </div>
                   </div>
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                       <div className="pt-3">
                         <label className="form-label">Email</label>
                         <input
@@ -81,30 +69,17 @@ export const Hero = () => {
                         />
                       </div>
                     </div>
-                    <div className="col-md-6">
-                      <div className="pt-3">
-                        <label className="form-label">Phone Number</label>
-                        <input
-                          type="email"
-                          // name="user_email"
-                          className="form-control"
-                          placeholder="Phone Number"
-                          required
-                        />
-                      </div>
-                    </div>
                   </div>
-
                   <div className="pt-3 pb-3">
-                    <label className="form-label">Project Details</label>
+                    <label className="form-label">Message</label>
                     <textarea
                       name="message"
                       className="form-control"
-                      placeholder="write your details here"
+                      placeholder="write your message here"
                     />
                   </div>
                   <button type="submit" value="Send" className="send">
-                    Get A Quote
+                    Send
                   </button>
                 </div>
               </div>

@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 import Privacy from "./Pages/Privacy";
 import Careers from "./Pages/Careers";
 import Portfolio from "./Pages/Portfolio";
+import Getaquote from "./Pages/Getaquote";
 AOS.init();
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/career" element={<Careers />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/getaquote" element={<Getaquote />} />
           </Routes>
         </Base>
       </BrowserRouter>
